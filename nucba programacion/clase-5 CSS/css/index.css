@@ -1,0 +1,49 @@
+.te {
+  background-color: aqua;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  font-style: oblique;
+  font-size: 50px;
+}
+
+h2 {
+  color: aqua;
+}
+
+.hi {
+  background-color: yellow;
+  color: blueviolet;
+}
+
+#hola {
+  color: aqua;
+  background-color: chartreuse;
+}
+
+#pepe {
+  background-color: darkkhaki;
+}
+
+/* unidad de medida absoluta px */
+
+.cuadrado {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+/* unidad de medida relativa % */
+
+.porcentaje {
+  width: 500%;
+  height: 2000%%;
+  background-color: green;
+}
+
+.rick {
+    
+    width: 500px;
+    height: 501px;
+    background-image: url("https://pics.filmaffinity.com/rick_and_morty-157026175-large.jpg");
+    background-size: cover;
+}
