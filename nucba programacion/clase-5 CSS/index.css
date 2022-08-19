@@ -10,11 +10,6 @@ h2 {
   color: aqua;
 }
 
-.hi {
-  background-color: yellow;
-  color: blueviolet;
-}
-
 #hola {
   color: aqua;
   background-color: chartreuse;
@@ -35,15 +30,25 @@ h2 {
 /* unidad de medida relativa % */
 
 .porcentaje {
-  width: 500%;
-  height: 2000%%;
+  width: 200%;
+  height: 200%;
   background-color: green;
 }
 
-.rick {
-  width: 500px;
-  height: 501px; 
-  background-image: url(../img/rick.jpg);
+#nice {
+  background-image: url("../img/nice.jpg") url("../img/rickandmort.jpg");
+  width: 2000%;
+  height: 50000%; 
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
 }
+
+.pro {
+  background-image: url("./nice.jpg");
+  width: 200%;
+  height: 500%; 
+}
+
+
+
